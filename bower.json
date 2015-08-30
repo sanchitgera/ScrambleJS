@@ -1,0 +1,24 @@
+{
+  "name": "scramble",
+  "main": "./lib/scramble.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sanchitgera/ScrambleJS",
+  "authors": [
+    "Sanchit Gera <gerasanchit@gmail.com>"
+  ],
+  "description": "Efficient shuffling of arrays and strings in JavaScript",
+  "keywords": [
+    "Scramble",
+    "Shuffle",
+    "Fischer-Yates",
+    "Knuth"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
