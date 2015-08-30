@@ -1,10 +1,10 @@
 {
   "name": "scramble",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Scramble arrays and strings ",
   "main": "lib/scramble.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha test", 
+    "test": "./node_modules/.bin/mocha test",
     "uglify": "./node_modules/.bin/gulp uglify"
   },
   "keywords": [
@@ -13,6 +13,12 @@
     "Fishcher-Yates",
     "Scramble"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanchitgera/ScrambleJS.git"
+  },
+  "homepage": "https://github.com/sanchitgera/ScrambleJS",
+  "bugs": "https://github.com/sanchitgera/ScrambleJS/issues",
   "author": "Sanchit Gera (gerasanchit@gmail.com)",
   "license": "MIT",
   "dependencies": {},
