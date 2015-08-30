@@ -4,7 +4,8 @@
   "description": "Scramble arrays and strings ",
   "main": "lib/scramble.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uglify": "./node_modules/.bin/gulp uglify"
   },
   "keywords": [
     "Shuffle",
@@ -14,13 +15,12 @@
   ],
   "author": "Sanchit Gera (gerasanchit@gmail.com)",
   "license": "MIT",
-  "dependencies": {
-    "chai": "^3.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "chai": "^3.2.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^1.4.0"
+    "gulp-uglify": "^1.4.0",
+    "mocha": "^2.2.5"
   }
 }
