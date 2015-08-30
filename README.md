@@ -77,6 +77,13 @@ inputString.scramble();
 ```
 Modifying built in objects isn't, however, best practice necessarily. Be careful :)  
 
+## Testing 
+All tests are contained in `lib/scrambleSpec`. To run them, 
+```
+$ npm install 
+$ npm test
+```
+
 ## License
 
 Copyright (c) 2015, Sanchit Gera. (MIT License)
