@@ -55,5 +55,15 @@ describe('scramble', function() {
     var scrambled = initial.scramble();
 
     expect(scrambled).to.not.equal(initial);
-  })
+  });
+
+  it('preserves entire string', function() {
+    var initial = 'Hello World!';
+
+    var scrambled = scramble(initial, {
+      preserve: [0, initial.length - 1]
+    });
+
+    expect(initial).to.equal(scrambled);
+  });
 });
